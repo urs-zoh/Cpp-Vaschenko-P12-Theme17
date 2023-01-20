@@ -1,0 +1,3 @@
+/Users/zakhar/Documents/ItStep/C++/C++ Year2/CProjects/homework17/cmake-build-debug/CMakeFiles/homework17.dir
+/Users/zakhar/Documents/ItStep/C++/C++ Year2/CProjects/homework17/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zakhar/Documents/ItStep/C++/C++ Year2/CProjects/homework17/cmake-build-debug/CMakeFiles/rebuild_cache.dir

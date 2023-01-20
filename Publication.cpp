@@ -31,7 +31,10 @@ void Publication::setYear(int year) {
 }
 
 void Publication::show() const {
-
+    std::cout << "Name: " << name
+              << "\nAuthor: " << author
+              << "\nYear: " << year
+              << std::endl;
 }
 
 string Publication::type() const {

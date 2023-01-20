@@ -58,6 +58,12 @@ build CMakeFiles/homework17.dir/Publication.cpp.o: CXX_COMPILER__homework17_Debu
   OBJECT_DIR = CMakeFiles/homework17.dir
   OBJECT_FILE_DIR = CMakeFiles/homework17.dir
 
+build CMakeFiles/homework17.dir/Library.cpp.o: CXX_COMPILER__homework17_Debug /Users/zakhar/Documents/ItStep/C++/C++$ Year2/CProjects/homework17/Library.cpp || cmake_object_order_depends_target_homework17
+  DEP_FILE = CMakeFiles/homework17.dir/Library.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++14
+  OBJECT_DIR = CMakeFiles/homework17.dir
+  OBJECT_FILE_DIR = CMakeFiles/homework17.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target homework17
@@ -66,7 +72,7 @@ build CMakeFiles/homework17.dir/Publication.cpp.o: CXX_COMPILER__homework17_Debu
 #############################################
 # Link the executable homework17
 
-build homework17: CXX_EXECUTABLE_LINKER__homework17_Debug CMakeFiles/homework17.dir/main.cpp.o CMakeFiles/homework17.dir/Publication.cpp.o
+build homework17: CXX_EXECUTABLE_LINKER__homework17_Debug CMakeFiles/homework17.dir/main.cpp.o CMakeFiles/homework17.dir/Publication.cpp.o CMakeFiles/homework17.dir/Library.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
   OBJECT_DIR = CMakeFiles/homework17.dir
   POST_BUILD = :

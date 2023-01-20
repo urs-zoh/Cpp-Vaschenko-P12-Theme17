@@ -22,11 +22,11 @@ public:
     const string &getName() const;
     void setName(const string &name);
 
-    void showPublication() const;
-    void showPublicationByYear() const; //instead of find
+    void showPublications() const;
+    void showPublicationByYear(int year) const; //instead of find
 
-    void addPublication(Publication obj);
-    void dellPublication(int index);
+    void addPublication(Publication* obj);
+    void delPublication(int index);
 };
 
 

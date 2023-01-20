@@ -14,3 +14,13 @@ const string &Book::getResume() const {
 void Book::setResume(const string &resume) {
     Book::resume = resume;
 }
+
+void Book::show() const {
+    Publication::show();
+    std::cout << "Resume: " << resume
+    << std::endl;
+}
+
+string Book::type() const {
+    return "Book";
+}

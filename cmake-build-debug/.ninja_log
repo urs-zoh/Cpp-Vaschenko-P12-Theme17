@@ -1,5 +1,7 @@
 # ninja log v5
 5	295	1674252560064794193	CMakeFiles/homework17.dir/Library.cpp.o	561390f9b97a0a4c
-295	333	1674252560104167754	homework17	2c9875bfba89d505
 0	396	1674252341019237744	CMakeFiles/homework17.dir/Publication.cpp.o	2b1aae9fc751088f
 0	397	1674252341019222703	CMakeFiles/homework17.dir/main.cpp.o	b84a8adaa0a05644
+2	379	1674252867653751656	CMakeFiles/homework17.dir/Book.cpp.o	ec79afd06ec00080
+395	439	1674252867715079232	homework17	aef838d712de67b6
+3	395	1674252867670281436	CMakeFiles/homework17.dir/Magazine.cpp.o	ba51aed13c357b99

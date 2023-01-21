@@ -7,6 +7,7 @@
 
 
 #include "Publication.h"
+#include "PublicationException.h"
 #include <vector>
 using std::vector;
 
@@ -19,7 +20,7 @@ public:
     void delArticle(int index);
 
     void show() const;
-    string type() const;
+    static string type() ;
 };
 
 

@@ -4,7 +4,10 @@
 
 #include "Publication.h"
 
-Publication::Publication(const string &name, const string &author, int year) : name(name), author(author), year(year) {}
+Publication::Publication(const string &name, const string &author, int year) : name(name), author(author), year(year) {
+    if (year <= 0)
+        throw new EditionYearException();
+}
 
 const string &Publication::getName() const {
     return name;

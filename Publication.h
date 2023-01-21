@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <string>
+#include "PublicationException.h"
 using std::string;
 
 class Publication {
@@ -26,7 +27,7 @@ public:
     int getYear() const;
     void setYear(int year);
 
-    void show() const;
+    virtual void show() const;
     string type() const;
 };
 

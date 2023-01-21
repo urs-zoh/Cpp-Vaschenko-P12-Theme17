@@ -7,6 +7,7 @@
 
 
 #include "Publication.h"
+#include "PublicationException.h"
 
 class Book : public Publication {
     string resume;
@@ -17,7 +18,7 @@ public:
     void setResume(const string &resume);
 
     void show() const;
-    string type() const;
+    static string type() ;
 };
 
 

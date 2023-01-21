@@ -23,7 +23,7 @@ public:
 class EditionYearException: public PublicationException {
 public:
     string Message() const override{
-        return "Impossible to create a publication - the year you've entered is incorrect: ";
+        return "Impossible to create a publication - the year you've entered is incorrect";
     }
 };
 
